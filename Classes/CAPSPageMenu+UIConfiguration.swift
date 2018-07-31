@@ -135,7 +135,7 @@ extension CAPSPageMenu {
         menuItemTapGestureRecognizer.numberOfTapsRequired = 1
         menuItemTapGestureRecognizer.numberOfTouchesRequired = 1
         menuItemTapGestureRecognizer.delegate = self
-//        menuScrollView.addGestureRecognizer(menuItemTapGestureRecognizer)
+//        menuScrollView.addGestureRecognizer(menuItemTapGestureRecognizer)  //uncomment this lines if you want to add tap gesture in title lable of pagemenu
         
         // Set delegate for controller scroll view
         controllerScrollView.delegate = self
